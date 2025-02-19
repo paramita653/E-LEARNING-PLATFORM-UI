@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jfif">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#progress">Progress</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <div class="course-list">
+                <div class="course" data-course-id="1">
+                    <h3>HTML</h3>
+                    <p>This course is completely cost-free. Duration of this course is 1-month. At the end of the course, you have to qualify an exam to get certificate.</p>
+                    <button class="enroll-btn">Enroll</button>
+                </div>
+                <div class="course" data-course-id="2">
+                    <h3>CSS</h3>
+                    <p>This course is completely cost-free. Duration of this course is 2-month. At the end of the course, you have to qualify an exam to get certificate.</p>
+                    <button class="enroll-btn">Enroll</button>
+                </div>
+                <div class="course" data-course-id="3">
+                    <h3>JavaScript</h3>
+                    <p>This course is completely cost-free. Duration of this course is 3-month. At the end of the course, you have to qualify an exam to get certificate.</p>
+                    <button class="enroll-btn">Enroll</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="progress">
+            <h2>Your Progress</h2>
+            <div class="progress-tracker">
+                <div class="course-progress" data-course-id="1">
+                    <h3>HTML</h3>
+                    <p>Progress: <span class="progress-percentage">75%</span></p>
+                </div>
+                <div class="course-progress" data-course-id="2">
+                    <h3>CSS</h3>
+                    <p>Progress: <span class="progress-percentage">60%</span></p>
+                </div>
+                <div class="course-progress" data-course-id="3">
+                    <h3>JavaScript</h3>
+                    <p>Progress: <span class="progress-percentage">45%</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Course Video</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/32Mu4GCfRL4?si=KwW0L-rNn16Vws6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2025 Paramita Saha. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
